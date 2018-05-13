@@ -1,0 +1,142 @@
+.footer{
+	padding: 28px 0 17px;
+	background:#4F4F4F;
+	.container{
+		max-width:1366px;
+		padding: 0 18px;
+		margin: 0 auto;
+		display:-webkit-box;
+		display:-webkit-flex;
+		display:-ms-flexbox;
+		display:flex;
+		-webkit-box-pack: justify;
+		-webkit-justify-content: space-between;
+		-ms-flex-pack: justify;
+		justify-content: space-between;
+		-webkit-box-align:stretch;
+		-webkit-align-items:stretch;
+		-ms-flex-align:stretch;
+		align-items:stretch;
+	}
+	&__item-1{
+		display:-webkit-box;
+		display:-webkit-flex;
+		display:-ms-flexbox;
+		display:flex;
+		-webkit-box-orient:vertical;
+		-webkit-box-direction:normal;
+		-webkit-flex-direction:column;
+		-ms-flex-direction:column;
+		flex-direction:column;
+		-webkit-justify-content: space-around;
+		-ms-flex-pack: distribute;
+		justify-content: space-around;
+
+		.top_links{
+			margin-bottom: 50px;
+		}
+		.price, .contacts{
+			font-size: 18px;
+			line-height: 22px;
+			text-decoration: underline;
+			display: inline-block;
+		}
+		.price{
+			margin-right: 10px;
+		}
+		.mail, .tel{
+			display: block;
+
+
+		}
+		.mail{
+			font-size: 16px;
+			line-height: 19px;
+			text-decoration: underline;
+			margin-bottom: 11px;
+		}
+		.tel{
+			text-transform: uppercase;
+			font-size: 16px;
+			line-height: 19px;
+			margin-left: -8px;
+		}
+	}
+	&__item-2{
+		text-align: center;
+		.social_list{
+			margin-bottom: 35px;
+		}
+		li{
+			display: inline-block;
+			.social_link{
+				display: inline-block;
+				margin: 0 5px;
+				width: 50px;
+				height: 50px;
+				text-align: center;
+				background: #828282;
+				border-radius:50px;
+				.fa{
+					font-size: 32px;
+					margin-top: 9px;
+				}
+			}
+		}
+	}
+	&__address{
+		font-size: 16px;
+		line-height: 19px;
+		margin-bottom: 10px;
+	}
+	&__schedule{
+		font-size: 16px;
+		line-height: 19px;
+	}
+	&__item-3{
+		text-align: right;
+		.sign_up{
+			margin-bottom: 63px;
+			display: block;
+			span{
+				display: inline-block;
+			}
+			.text{
+				margin-right: 10px;
+				font-size: 21px;
+				line-height: 25px;
+				border-bottom:1px dashed #F2F2F2;
+			}
+			.icon{
+				width: 35px;
+				height: 35px;
+				text-align: center;
+				background: #8139C5;
+				border-radius:35px;
+				.fa{
+					font-size: 24px;
+					margin-top: 6px;
+				}
+			}
+		}
+		.contora{
+			font-size: 16px;
+			line-height: 19px;
+			margin-bottom: 17px;
+			text-decoration: underline;
+			display: inline-block;
+		}
+		.madein{
+			&__icon{
+				display: inline-block;
+				vertical-align: middle;
+				margin-right: 10px;
+				
+			}
+			&__text{
+				display: inline-block;
+				vertical-align: middle;
+			}
+		}
+	}
+}

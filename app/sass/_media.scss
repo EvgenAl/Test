@@ -1,0 +1,106 @@
+/* Extra Large Devices, Wide Screens */
+@media only screen and (max-width : 1400px){
+	.footer .container{
+		max-width:1140px;
+	}
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px){
+	.footer .container{
+		max-width:960px;
+	}
+}
+
+
+/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px){
+	.footer .container{
+		max-width:720px;
+	}
+}
+/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px){
+	.footer .container{
+		max-width:540px;
+		-webkit-box-orient:vertical;
+		-webkit-box-direction:normal;
+		-webkit-flex-direction:column;
+		    -ms-flex-direction:column;
+		        flex-direction:column;
+	}
+	.footer__item{
+		text-align: center;
+		margin-bottom: 40px;
+	}
+	.footer__item-1 .top_links, .footer__item-3 .sign_up, .footer__item-2 .social_list{
+		margin-bottom: 20px;
+	}
+}
+
+@media only screen and (max-width : 580px){
+	.footer .container{
+		max-width: auto;
+	}
+}
+/**/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px){
+	
+}
+/**/
+@media only screen and (max-width : 380px){
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px){
+
+}
+/**/
+
+
+/*==========  Mobile First  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px){
+
+}
+/**/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px){
+
+}
+/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px){
+
+}
+/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px){
+
+}
+/**/
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px){
+
+}
+/**/
+
